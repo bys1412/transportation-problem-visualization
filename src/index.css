@@ -1,0 +1,28 @@
+/* src/index.css */
+/* 基础重置与全局样式 */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: #f8fafc; /* 例如 tailwind slate-50 */
+  color: #0f172a; /* 例如 tailwind slate-900 */
+  line-height: 1.5;
+}
+
+/* 为React根容器设置最小高度 */
+#root {
+  min-height: 100vh;
+}
+
+/* 您也可以在此导入字体，例如：
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*/

@@ -1,0 +1,6 @@
+{
+  "name": "运筹学运输问题求解器",
+  "description": "基于表上作业法（MODI法与闭回路调整法）的交互式运筹学运输问题求解工具，支持西北角法、最小元素法和伏格尔法初始化。",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
