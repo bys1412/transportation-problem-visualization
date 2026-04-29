@@ -21,6 +21,7 @@ import {
   Activity
 } from 'lucide-react';
 import * as Solver from './solver';
+import { PasswordGate } from './components/PasswordGate';
 
 type AppStep = 'setup' | 'solving' | 'finished';
 
@@ -355,6 +356,7 @@ export default function App() {
   };
 
   return (
+    <PasswordGate>
     <div className="h-screen bg-slate-100 flex flex-col font-sans text-slate-800 overflow-hidden">
       {/* Top Navigation Bar */}
       <header className="h-16 bg-white border-b border-slate-200 flex items-center justify-between px-8 shrink-0 shadow-sm z-10">
@@ -810,5 +812,6 @@ export default function App() {
         </div>
       </footer>
     </div>
+    </PasswordGate>
   );
 }
